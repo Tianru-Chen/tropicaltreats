@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tropical Treats</title>
+    <link href="tropical_stylesheet.css" rel="stylesheet" type="text/css">
+        <script>
+            function nav_li_selected(li_id) {
+                for(i = 0; i < 4; i++)  {
+                    document.getElementById(i.toString()).style.backgroundColor = "";
+                }
+                    document.getElementById(li_id.toString()).style.backgroundColor = "orange";
+            }
+        </script>
+</head>
+<body>
+<header>
+    <h1>Tropical Treats</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="0" onclick="nav_li_selected(0)">Home page</a></li>
+            <li><a href="about_me.html" id="1" onclick="nav_li_selected(1)">About me</a></li>
+            <li><a href="menu.html" id="2" onclick="nav_li_selected(2)">Menu</a></li>
+            <li><a href="specials_page.html" id="3" onclick="nav_li_selected(3)">Specials page</a></li>
+        </ul>
+    </nav>
+    <img src="img/Carrot-Cake-WEB.jpg" alt="Carrot-Cake" height="42" width="38" />
+</header>
+</body>
+</html>
