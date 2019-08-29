@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="69598a99-ff64-4b4b-aa87-e3da9007ea59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueberry-muffin.html" beforeDir="false" afterPath="$PROJECT_DIR$/blueberry-muffin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caramel-slice.html" beforeDir="false" afterPath="$PROJECT_DIR$/caramel-slice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cherry-ripe-slice.html" beforeDir="false" afterPath="$PROJECT_DIR$/cherry-ripe-slice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocoalte-chip-muffin.html" beforeDir="false" afterPath="$PROJECT_DIR$/chocoalte-chip-muffin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lemon-meringue-pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/lemon-meringue-pie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-cheesecake.html" beforeDir="false" afterPath="$PROJECT_DIR$/raspberry-cheesecake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tropical_stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/tropical_stylesheet.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566907442415</updated>
-      <workItem from="1566907443523" duration="38421000" />
+      <workItem from="1566907443523" duration="39570000" />
     </task>
     <servers />
   </component>

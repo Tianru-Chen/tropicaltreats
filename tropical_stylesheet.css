@@ -57,6 +57,9 @@ ul {
     width:100%
 }
 
+.cake-slice-img:hover {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .block {
     width:100%
@@ -379,4 +382,16 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.shadow:hover {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
+}
+
+.shadow {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.padding-top-32 {
+    padding-top: 32px;
 }
