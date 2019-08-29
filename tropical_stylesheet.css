@@ -328,8 +328,9 @@ a {
 }
 
 .comments-background {
-    background-color: #f5f5dc;
+    background-color: #fcd303;
     border-radius: 10px;
+    color: saddlebrown;
 }
 
 .margin-24 {
@@ -341,9 +342,9 @@ a {
 }
 
 .sign-up-button {
-    background-color: #4CAF50;
+    background-color: #df03fc;
     border: none;
-    color: white;
+    color: burlywood;
     padding: 15px 10%;
     text-align: center;
     text-decoration: none;
@@ -367,4 +368,15 @@ a {
 
 .about-us-content {
     padding: 15px 10%;
+}
+
+.cake-detail {
+    height: 50%;
+}
+
+.cake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
