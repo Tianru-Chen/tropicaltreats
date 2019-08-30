@@ -3,11 +3,11 @@
 }
 
 body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Karma", sans-serif
+    font-family: "Al Nile";
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: "Segoe UI", Arial, sans-serif;
+h1,h2,h4,h5,h6 {
+    font-family: ".SF NS Display";
     font-weight:400;
     margin:10px 0
 }
@@ -293,7 +293,7 @@ a {
 @media (min-width: 601px) {
     .footer-column  {
         float:left;
-        width: 33.33333%;
+        width: 25%;
     }
 }
 
@@ -345,9 +345,9 @@ a {
 }
 
 .sign-up-button {
-    background-color: #df03fc;
+    background-color: #fc9403;
     border: none;
-    color: white;
+    color: aliceblue;
     padding: 15px 8%;
     text-align: center;
     text-decoration: none;
@@ -355,10 +355,11 @@ a {
     font-size: 16px;
     position:relative;
     left:25%;
+    font-family: "Karma", sans-serif;
 }
 
 .sign-up-button:hover {
-    background-color: tomato;
+    background-color: #fc5203;
 }
 
 .border-radius-10 {
