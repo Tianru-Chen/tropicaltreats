@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69598a99-ff64-4b4b-aa87-e3da9007ea59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/plan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/specials_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/specials_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tropical_stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/tropical_stylesheet.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566907442415</updated>
-      <workItem from="1566907443523" duration="42605000" />
+      <workItem from="1566907443523" duration="43885000" />
     </task>
     <servers />
   </component>
