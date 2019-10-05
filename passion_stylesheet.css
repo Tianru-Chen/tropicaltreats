@@ -1,21 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
 * {
     box-sizing: border-box;
 }
 
 body,h1,h2,h3,h4,h5,h6 {
-    font-family: "Al Nile";
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: ".SF NS Display";
+    font-family: 'Montserrat', sans-serif;
     font-weight:400;
     margin:10px 0
 }
 
-.block .item {padding:20px}
 
 body {
     padding: 10px;
+    background-color: cornsilk;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header h1 {
@@ -30,11 +33,29 @@ ul {
     margin: 0;
 }
 
-/*ul li {*/
-/*    display:inline;*/
-/*    padding: 0;*/
-/*    margin: 0;*/
-/*}*/
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu a{
+    float:none;
+    color:black;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: left;
+}
 
 .image-container {
     /*min-height: 400px;*/
@@ -61,23 +82,6 @@ ul {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.block {
-    width:100%
-}
-
-.block .item {
-    width:100%;
-    display:block;
-    padding:8px 16px;
-    text-align:left;
-    border:none;
-    white-space:normal;
-    float:none;
-    outline:0
-}
-
-.block.center .item {
-    text-align:center}
 
 h1 {
     font-size:36px
@@ -97,10 +101,6 @@ h5 {
 h6 {
     font-size:16px
 }
-
-/*img{*/
-/*    vertical-align:middle*/
-/*}*/
 
 a {
     color:inherit;
@@ -124,7 +124,7 @@ a {
 
 .row-padding:before {content:"";display:table;clear:both}
 
-.quarter{float:left;width:100%}
+.quarter{float:left;width:100%;height:90%}
 
 @media (min-width:601px){
     .quarter{width:24.99999%}
@@ -281,10 +281,6 @@ a {
     font-size: 0.9rem;
 }
 
-/*.footer-column {*/
-/*    float:left;*/
-/*    width:33.33333%;*/
-/*}*/
 
 .footer-column {
     width: 100%;
@@ -309,31 +305,72 @@ a {
 
 .home-image {
     border-radius: 10px;
+
 }
 
 .full {
-    width: 100%;
-    height: 100%;
+     width: 100%;
+     height: 100%;
+ }
+
+/*.left-half-width {*/
+/*    height: 200px;*/
+/*    max-width: 800px;*/
+/*    margin: 0 auto;*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*    transform: translate3d(0, 0, 0);*/
 }
+/*.left-half-width > div{*/
+/*    height: 200px;*/
+/*    width: 2526px;*/
+/*    background: url(http://www.webhek.com/post/infinite-all-css-scrolling-slideshow.html);*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    height: 100%;*/
+/*    transform: translate3d(0, 0, 0,);*/
+}
+/*.left-half-width .home-page-1{*/
+/*    animation: moveSlideshow 60s linear infinite;*/
+/*}*/
+/*.left-half-width .home-page-2{*/
+/*    opacity: 0;*/
+/*    transition: opacity 0.5s ease-out;*/
+/*    background-position: 0 -200px;*/
+/*    animation: moveSlideshow 20s linear infinite;*/
+/*}*/
+
+/*.left-half-width:hover .home-page-2{*/
+/*    opacity: 1;*/
+/*}*/
+@keyframes moveSlideshow {
+    100% {
+        transform: translateX(-80%);
+    }
+}
+
+
+
+
+
 
 .half-width {
     width: 50%;
-    /*height: 50%;*/
-    /*border-style: solid;*/
-    /*border-color: red;*/
+    height: 200px;
+
 }
+
 
 .half-height {
     height: 50%;
-    /*border-style: solid;*/
-    /*border-color: green;*/
-
 }
 
 .comments-background {
     background-color: #fcc203;
-    border-radius: 10px;
+    border-radius: 60px;
     color: saddlebrown;
+
 }
 
 .margin-24 {
@@ -359,14 +396,26 @@ a {
 }
 
 .sign-up-button:hover {
-    background-color: #fc5203;
+    color: #fc5203;
+    background-color: transparent;
+    text-decoration: none;
+}
+.sign-up-button:active {
+    color: saddlebrown;
+    background-color: transparent;
+    text-decoration: none;
+}
+.sign-up-button:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
 }
 
 .border-radius-10 {
     border-radius: 10px;
 }
 
-.about-us-backgrond {
+.about-us-background {
     background-color: #f5f5dc;
 }
 
@@ -383,11 +432,8 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding: 2em;
 }
-
-/*.shadow:hover {*/
-/*    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;*/
-/*}*/
 
 .shadow {
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

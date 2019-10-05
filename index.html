@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Tropical Treats</title>
+    <script>
+        function run_first() {
+            if(sessionStorage.item_id) {
+                document.getElementById(sessionStorage.item_id.toString()).style.backgroundColor
+                    = "gray";
+            }
+        }
+        function nav_item_selected(item_id) {
+            for(i = 0; i < 6; i++) {
+                document.getElementById(i.toString()).style.backgroundColor = "";
+            }
+            document.getElementById(item_id.toString()).style.backgroundColor = "gray";
+            sessionStorage.item_id = item_id;
+        }
+    </script>
+    <title>Passion Cake</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
-    <link href="tropical_stylesheet.css" rel="stylesheet" type="text/css">
+<!--    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">-->
+    <link href="passion_stylesheet.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body onload="run_first()">
+
     <!-- Top menu -->
     <div class="nav-container top">
         <nav class="white font-xlarge">
-            <div class="left"><a href="index.html">Tropical Treats</a></div>
+            <div class="left"><a href="index.html"id="0" onclick="nav_item_selected(0)">Passion Cake</a></div>
             <div class="right">
                 <ul class="nav">
-                    <li class="padding-left-right-small nav-item"><a href="about_me.html">About</a></li>
-                    <li class="padding-left-right-small nav-item"><a href="menu.html">Menu</a></li>
-                    <li class="padding-left-right-small nav-item"><a href="specials_page.html">Specials</a></li>
+                    <li class="padding-left-right-small nav-item"id="1" onclick="nav_item_selected(1)"><a href="about_me.html">About</a></li>
+                    <div class="dropdown">
+                        <li class="padding-left-right-small nav-item"id="2"><a href="menu.html">Menu</a></li>
+                        <div class="dropdown-menu">
+                            <a href="menu-cookies.html" onclick="nav_item_selected(2)">Cookies</a>
+                            <a href="Menu-global-sweet.html" onclick="nav_item_selected(2)">Global Sweets</a>
+                        </div>
+                    </div>
+                    <li class="padding-left-right-small nav-item"id="3" onclick="nav_item_selected(3)"><a href="specials_page.html">Specials</a></li>
                 </ul>
             </div>
         </nav>
@@ -26,7 +48,7 @@
     <div class="container-max-width content padding-top-64">
         <div class="home-content">
             <div class="left half-width">
-                <img class="full home-image" src="img/bakedbasket2.jpg" alt="bakery">
+                <img class="full-home-image-1" src="maxresdefault.jpg" alt="bakery">
             </div>
             <div class="right half-width">
                 <div class="margin-left-24">

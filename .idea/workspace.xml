@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69598a99-ff64-4b4b-aa87-e3da9007ea59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PNG/flow_chart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plan.html" beforeDir="false" afterPath="$PROJECT_DIR$/plan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about_me.html" beforeDir="false" afterPath="$PROJECT_DIR$/about_me.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueberry-muffin.html" beforeDir="false" afterPath="$PROJECT_DIR$/blueberry-muffin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/caramel-slice.html" beforeDir="false" afterPath="$PROJECT_DIR$/caramel-slice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cherry-ripe-slice.html" beforeDir="false" afterPath="$PROJECT_DIR$/cherry-ripe-slice.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chocoalte-chip-muffin.html" beforeDir="false" afterPath="$PROJECT_DIR$/chocoalte-chip-muffin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Carrot-Cake-WEB.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lemon-meringue-pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/lemon-meringue-pie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/raspberry-cheesecake.html" beforeDir="false" afterPath="$PROJECT_DIR$/raspberry-cheesecake.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/specials_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/specials_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tropical_stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/passion_stylesheet.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -24,9 +37,11 @@
   <component name="ProjectId" id="1Q0VLH4JJigiH1bRQ1gwuiDyHE7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,12 +50,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -65,7 +80,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566907442415</updated>
-      <workItem from="1566907443523" duration="46224000" />
+      <workItem from="1566907443523" duration="46519000" />
+      <workItem from="1567410891622" duration="4000" />
+      <workItem from="1567410930936" duration="2000" />
+      <workItem from="1568610358776" duration="5608000" />
+      <workItem from="1568638696396" duration="4709000" />
+      <workItem from="1568784405446" duration="160000" />
+      <workItem from="1568784831692" duration="7000" />
+      <workItem from="1568784858747" duration="17000" />
+      <workItem from="1568784946533" duration="203000" />
+      <workItem from="1568785279599" duration="22000" />
+      <workItem from="1568785316169" duration="941000" />
+      <workItem from="1568786349252" duration="40000" />
+      <workItem from="1568786476277" duration="448000" />
+      <workItem from="1568805712923" duration="5136000" />
+      <workItem from="1569131239765" duration="4618000" />
+      <workItem from="1570163906724" duration="6000" />
+      <workItem from="1570163940385" duration="6691000" />
     </task>
     <servers />
   </component>
@@ -77,7 +108,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
